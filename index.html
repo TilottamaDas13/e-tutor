@@ -61,8 +61,8 @@
         <!-- Slider Part Starts -->
         <section class="container">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active w-100" data-bs-interval="10000">
+                <div class="carousel-inner col-sm-2 col-md-6 col-lg-12">
+                    <div class="carousel-item active" data-bs-interval="10000">
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block ">
                             <h1>Get Started Digital Learning</h1>
@@ -127,7 +127,7 @@
             <div>
                 <div class="container text-center">
                     <div class="row g-3">
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="border bg-light d-flex rounded">
                                 <img src="images/course/course-1.png" alt="">
                                 <div class="mx-2 text-start">
@@ -139,7 +139,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="border bg-light d-flex rounded">
                                 <img src="images/course/course-2.png" alt="">
                                 <div class="mx-2 text-start">
@@ -151,7 +151,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="border bg-light d-flex rounded">
                                 <img src="images/course/course-3.png" alt="">
                                 <div class="mx-2 text-start">
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="border bg-light d-flex rounded">
                                 <img src="images/course/course-4.png" alt="">
                                 <div class="mx-2 text-start">
@@ -175,7 +175,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="border bg-light d-flex rounded">
                                 <img src="images/course/course-5.png" alt="">
                                 <div class="mx-2 text-start">
@@ -187,7 +187,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12">
                             <div class="border bg-light d-flex rounded">
                                 <img src="images/course/course-6.png" alt="">
                                 <div class="mx-2 text-start">
@@ -268,11 +268,21 @@
                                     the
                                     readable content of a page when looking at its layout.</p>
                             </div>
-                            <button class="btn btn-outline-info bg-white">Regiter Now
-                                <section>
-
-                                </section>
-                            </button>
+                            <button class="btn btn-outline-info bg-white" type="button" data-bs-toggle="modal"
+                                data-bs-target="#myModal">Regiter Now</button>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="header">
+                                            <div class="modal-title d-flex justify-content-evenly">
+                                                <h5 class="modal-title">Register Now.</h5>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
